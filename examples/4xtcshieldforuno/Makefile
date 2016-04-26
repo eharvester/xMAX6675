@@ -55,7 +55,7 @@ $(ARDMK_DIR):
 
 $(XMAX6675_DIR): 
 	@rm -rf $@
-	@git clone $(GITHUB)/eharvest/xMAX6675 $@
+	@git clone $(GITHUB)/eharvester/xMAX6675 $@
 
 
 ######################################################################################
