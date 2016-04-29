@@ -1,9 +1,8 @@
-# Example
-4x Thermocouple Shield for Arduino Uno 
+# 4x Thermocouple Shield for Arduino Uno 
 
-Compile and upload (Linux):
+## Compile and upload (Linux):
 
-1) set the following environment variables:
+### 1) set the following environment variables:
 
 `PATH_TO_ARDUINO_IDE = /path/to/your/arduinoIDE`
 
@@ -11,9 +10,9 @@ Compile and upload (Linux):
 
 `GITHUB_MIRROR = /path/to/your/github/mirror` (optional, local github mirror, https://github.com is used per default)
 
-2) connect Arduino Uno to PC via USB cable
+### 2) connect Arduino Uno to PC via USB cable
 
-3) execute the following commands:
+### 3) execute the following commands:
 
 `$make`
 
@@ -22,6 +21,8 @@ Compile and upload (Linux):
 `$make minicom`
 
 Make sure you have write permissions to `/dev/ttyUSB0`.
+
+## Hardware
 
 PCB can be build with [toner transfer method](http://www.instructables.com/id/Cheap-and-Easy-Toner-Transfer-for-PCB-Making) easily. Only bottom layer needs to be etched, use wires for top layer. 
 
